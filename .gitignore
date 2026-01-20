@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.vscode/
+.DS_Store
+.env
+CANVAS.md
+data/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/cache/.gitkeep
