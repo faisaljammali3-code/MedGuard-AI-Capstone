@@ -1,7 +1,7 @@
 # config/settings.yaml
 
 paths:
-  raw: "data/raw/demo"       # غيّر هذه لاحقاً إلى data/raw عند العمل على البيانات الكاملة
+  raw: "data/raw"       # غيّر هذه لاحقاً إلى data/raw عند العمل على البيانات الكاملة
   cache: "data/cache"
   processed: "data/processed"
 
