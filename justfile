@@ -5,8 +5,11 @@ default:
     @just --list
 
 # 1. Run Main Package
+#uv run python -m src.MedGuard_AI
+#uv run python src/MedGuard_AI/pipelines/etl.py
+
 run:
-    uv run python -m src.MedGuard-AI
+    env PYTHONPATH=src uv run python -m MedGuard_AI.pipelines.etl
 
 # 2. Context Generator (Smart Notebook Parsing)
 plan:

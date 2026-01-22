@@ -1,0 +1,17 @@
+# config/settings.yaml
+
+paths:
+  raw: "data/raw/demo"       # غيّر هذه لاحقاً إلى data/raw عند العمل على البيانات الكاملة
+  cache: "data/cache"
+  processed: "data/processed"
+
+files:
+  prescriptions: "prescriptions.csv.gz"
+  patients: "patients.csv.gz"
+  omr: "omr.csv.gz"
+  diagnoses: "diagnoses_icd.csv.gz"
+  d_icd: "d_icd_diagnoses.csv.gz"
+
+processing:
+  chunk_size: 100000
+  compression: "snappy"      # Parquet compression
