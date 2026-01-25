@@ -11,6 +11,7 @@ files:
   omr: "omr.csv.gz"
   diagnoses: "diagnoses_icd.csv.gz"
   d_icd: "d_icd_diagnoses.csv.gz"
+  notes: "discharge.csv.gz"
 
 processing:
   chunk_size: 100000
